@@ -1,4 +1,5 @@
 # Ekaterina Guseva
+![My-photo](/rsschool-cv/Myphoto.jpeg)
 
 ## Contacts
 
@@ -30,6 +31,7 @@ But I have decided to lern something extremely new. And now I am developing myse
 ## Code example
 
 ```
+
 <script>
 console.log("Hello, JS World!")
 </script>
@@ -44,8 +46,8 @@ console.log("Hello, JS World!")
    * __University__: Saint Petersburg State University of Economics. *Speciality*: international relationships.
    * __Courses__: 
       * HTML and CSS Basic on Stepik.
-      * [JavaScript/Front-end(Stage0)](https://rs.school/js-stage0/). [Certificate](https://app.rs.school/certificate/j2c51f8t)
-		* In process: [JavaScript/Front-end(Stage1)](https://rs.school/js/)
+      * [JavaScript/Front-end(Stage0)](https://rs.school/js-stage0/). [Certificate](https://app.rs.school/certificate/j2c51f8t).
+		* In process: [JavaScript/Front-end(Stage1)](https://rs.school/js/).
 
 ## Languages
    * Russian (native)
