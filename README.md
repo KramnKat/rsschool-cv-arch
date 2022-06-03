@@ -1,1 +1,1 @@
-# rsschool-cv
+https://KramnKat.io/rsschool-cv/cv
