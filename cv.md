@@ -1,5 +1,5 @@
 # Ekaterina Guseva
-![My-photo](/rsschool-cv/Myphoto.jpeg)
+![My-photo](/Myphoto.jpeg)
 
 ## Contacts
 
