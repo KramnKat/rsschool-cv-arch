@@ -21,3 +21,33 @@ But I have decided to lern something extremely new. And now I am developing myse
 2. *Experience*:
    * more than 1 year of working on the position of Event director's personal assistant.
 
+## Skills
+
+* HTML (Basic)
+* CSS (Basic)
+* JS (Basic)
+
+## Code example
+
+```
+<script>
+console.log("Hello, JS World!")
+</script>
+
+```
+
+## Experience
+
+   * I have no experience in IT sphere, but whant to develop new skills and knowlages in it and in future get the position in Frontend Developing. 
+
+## Education
+   * __University__: Saint Petersburg State University of Economics. *Speciality*: international relationships.
+   * __Courses__: 
+      * HTML and CSS Basic on Stepik.
+      * [JavaScript/Front-end (Stage 0)] (https://rs.school/js-stage0/). [Certificate] (https://app.rs.school/certificate/j2c51f8t)
+		* In process: [JavaScript/Front-end (Stage 1)] (https://rs.school/js/)
+
+## Languages
+   * Russian (native)
+   * English (B1)
+   * German (A1)
