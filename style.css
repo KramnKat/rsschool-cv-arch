@@ -49,7 +49,7 @@ body {
 	padding: 15px 35px;
 	line-height: 42.5px;
 	text-decoration: none;
-	transition: color 0.5s;
+	transition: 0.5s;
  }
 
  .nav__link:visited {
@@ -69,8 +69,8 @@ body {
 }
 
 .section {
-	width: calc(50% - 20px);
-	padding: 10px;
+	width: calc(50% - 40px);
+	padding: 20px;
 	padding-bottom: 35px;
 	border-bottom: 3px solid rgb(233, 204, 165);
 }
@@ -133,16 +133,28 @@ body {
     padding-bottom: 10px;
 }
 
+svg {
+    width: 24px;
+    height: 24px;
+    flex-shrink: 0;
+}
+
 /*Section about*/
 
 .about__text,
-.about__item {
+.about__item,
+.education__item {
     padding-bottom: 20px;
 }
 
 .about__list-wrapper,
-.list__item {
+.list__item,
+.education__list {
     margin-left: 30px;
+}
+
+.list {
+    list-style: none;
 }
 
 /*Section skills*/
@@ -157,7 +169,32 @@ body {
     font-family: 'Lato', sans-serif;
 }
 
-footer {
+/*Education*/
+
+.list__item {
+    list-style: circle;
+}
+
+.link {
+    text-decoration: none;
+    transition: 0.5s;
+    color: #4d2323;
+}
+
+.link:hover {
+    color: #c9ac8b;
+}
+
+.link:visited {
+  color: #4d2323; 
+}
+
+/*Section projects*/
+
+.projects {
+    border-bottom: none;
+}
+.footer {
    display: block;
    height: 85px;
    font-size: 14px;
@@ -165,33 +202,15 @@ footer {
    background-color: rgb(131, 152, 196);
 }
 
-  
-  .footer-list {
+.footer__list {
     display: flex;
-    justify-content: space-between;
+    flex-direction: row;
+    justify-content: space-around;
     align-items: center;
-    list-style: none;
-    margin: 0;  
-  }
-
-  .list {
-      list-style: none;
-  }
-
-  .link {
-      text-decoration: none;
-      color: #c9ac8b;
-      transition: color 0.5s;
-  }
-
-  .link:visited {
-      color: #c9ac8b;
-  }
-  
-.link:hover {
-    color:rgb(250, 217, 175); 
+  list-style: none;
+  padding-top: 20px;
 }
-
+  
   img.logo {
       width: 60px;
       height: 40px;
@@ -221,34 +240,5 @@ footer {
 			  width: 200px;
 			  height: 200px;
 		  }
-      }
-
-.code-example {
-    font-size: 14px;
-    padding: -20%;
 }
 
-#projects {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    width: 100%;
-    border-bottom: none ;
-}
-
-.button {
-    width: 120px;
-    height: 60px;
-    background-color: rgb(131, 152, 196);
-    text-align: center;
-    padding-top: 15px;
-    border: 3px solid rgb(250, 217, 175);
-    border-radius: 10px;
-    transition: color 3s;
-}
-
-svg {
-    width: 24px;
-    height: 24px;
-    flex-shrink: 0;
-}
