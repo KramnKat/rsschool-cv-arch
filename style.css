@@ -16,7 +16,7 @@ body {
     justify-content: space-between;
     font-size: 18px;
     font-weight: 400;
-    line-height: 1.5;
+    line-height: 1.5em;
     color: #4d2323;
     background-color: rgb(248, 242, 233);
 }
@@ -108,8 +108,8 @@ body {
 
 .section__img {
 	display: block;
-    width: 270px;
-    height: 270px;
+    max-width: 270px;
+    max-height: 270px;
     border-radius: 50%;
 }
 
@@ -134,8 +134,8 @@ body {
 }
 
 svg {
-    width: 24px;
-    height: 24px;
+    max-width: 24px;
+    max-height: 24px;
     flex-shrink: 0;
 }
 
@@ -194,6 +194,9 @@ svg {
 .projects {
     border-bottom: none;
 }
+
+/*Section footer*/
+
 .footer {
    display: block;
    height: 85px;
@@ -211,34 +214,44 @@ svg {
   padding-top: 20px;
 }
   
-  img.logo {
+.logo {
       width: 60px;
       height: 40px;
       border-radius: 0%;
   }
 
-  img.logo:hover {
-      border: none;
+@media screen and (max-width: 768px) {
+
+  .container {
+    max-width: 768px;
   }
 
-  img.project-img {
-      border-radius: 5%;
-      width: 597px;
-      height: 460.5px;
-      
-  }
-  img.project-img:hover {
-      border: none;
+  .header {
+    font-size: 1em;
+    line-height: 10px;
+    padding: 0;
   }
 
-@media (max-width: 768px) {
-        .section {
-          width: 100%;
-        }
+  .nav__link {
+    padding: 15px 20px;
+  }
 
-		  .section__img {
-			  width: 200px;
-			  height: 200px;
-		  }
+  .section {
+    width: 100%;
+  }
+
+  .section__title {
+    font-size: 1.5em;
+  }
+
+  .section__title--smaller {
+    font-size: 1em;
+  }
+
+  .section__img {
+  	max-width: 200px;
+  	max-height: 200px;
+  }
+  
 }
 
