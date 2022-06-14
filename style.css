@@ -1,0 +1,257 @@
+@import url('https://fonts.googleapis.com/css2?family=Spline+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Merriweather&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.5em;
+    color: #4d2323;
+    background-color: rgb(248, 242, 233);
+}
+
+.container {
+	max-width: 1440px;
+	margin: 0 auto;
+}
+
+/*Header*/
+.header {
+	display: flex;
+	align-items: center;
+	height: 85px;
+	font-family: 'Spline Sans', sans-serif;
+	font-size: 1.25em;
+	color: cornsilk;
+	background-color: rgb(131, 152, 196);
+}
+
+.nav__list {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	list-style: none;
+ }
+
+ .nav__link {
+	color: cornsilk;
+	padding: 15px 35px;
+	line-height: 42.5px;
+	text-decoration: none;
+	transition: 0.5s;
+ }
+
+ .nav__link:visited {
+	color: cornsilk;
+ }
+
+ .nav__link:hover {
+	color: rgb(250, 217, 175);
+    transition: 0.5s;
+ }
+
+ /*Main container*/
+
+.main__container {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.section {
+	width: calc(50% - 40px);
+	padding: 20px;
+	padding-bottom: 35px;
+	border-bottom: 3px solid rgb(233, 204, 165);
+}
+
+.main__section {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  border-bottom: 10px solid rgb(233, 204, 165);
+}
+
+.section__title {
+	font-family: 'Spline Sans', sans-serif;
+    font-size: 2em;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    color: #c9ac8b;
+	border-bottom: 3px solid rgb(233, 204, 165);
+    padding: 20px 0;
+    text-align: center;
+  }
+
+.section__title--smaller {
+	font-family: 'Spline Sans', sans-serif;
+	font-weight: 400;
+	text-transform: uppercase;
+	letter-spacing: 5px;
+    color: #c9ac8b;
+	font-size: 1.5em;
+	padding-bottom: 20px;
+    border-bottom: none;
+}
+
+.section__img {
+	display: block;
+    max-width: 270px;
+    max-height: 270px;
+    border-radius: 50%;
+}
+
+.section__img:hover {
+    transform: scale(0.95);
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+/*Section contacts*/
+
+.contacts__list {
+    list-style: none;
+}
+
+.contacts__item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    padding-bottom: 10px;
+}
+
+svg {
+    max-width: 24px;
+    max-height: 24px;
+    flex-shrink: 0;
+}
+
+/*Section about*/
+
+.about__text,
+.about__item,
+.education__item {
+    padding-bottom: 20px;
+}
+
+.about__list-wrapper,
+.list__item,
+.education__list {
+    margin-left: 30px;
+}
+
+.list {
+    list-style: none;
+}
+
+/*Section skills*/
+
+.skills__item {
+    padding-bottom: 10px;
+}
+
+/*Section code example*/
+
+.code__tag {
+    font-family: 'Lato', sans-serif;
+}
+
+/*Education*/
+
+.list__item {
+    list-style: circle;
+}
+
+.link {
+    text-decoration: none;
+    transition: 0.5s;
+    color: #4d2323;
+}
+
+.link:hover {
+    color: #c9ac8b;
+}
+
+.link:visited {
+  color: #4d2323; 
+}
+
+/*Section projects*/
+
+.projects {
+    border-bottom: none;
+}
+
+/*Section footer*/
+
+.footer {
+   display: block;
+   height: 85px;
+   font-size: 14px;
+   color: cornsilk;
+   background-color: rgb(131, 152, 196);
+}
+
+.footer__list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+  list-style: none;
+  padding-top: 20px;
+}
+  
+.logo {
+      width: 60px;
+      height: 40px;
+      border-radius: 0%;
+  }
+
+@media screen and (max-width: 768px) {
+
+  .container {
+    max-width: 768px;
+  }
+
+  .header {
+    font-size: 1em;
+    line-height: 10px;
+    padding: 0;
+  }
+
+  .nav__link {
+    padding: 15px 20px;
+  }
+
+  .section {
+    width: 100%;
+  }
+
+  .section__title {
+    font-size: 1.5em;
+  }
+
+  .section__title--smaller {
+    font-size: 1em;
+  }
+
+  .section__img {
+  	max-width: 200px;
+  	max-height: 200px;
+  }
+  
+}
+
