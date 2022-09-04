@@ -1,5 +1,5 @@
 # Ekaterina Guseva
-![My-photo](/Myphoto.jpeg)
+![My-photo](./assets/Myphoto.jpeg)
 
 ## Contacts
 
