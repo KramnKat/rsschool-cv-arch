@@ -53,7 +53,7 @@ body {
  }
 
  .nav__link:visited {
-	color: cornsilk;
+	color: rgb(255, 248, 220);
  }
 
  .nav__link:hover {
@@ -111,12 +111,14 @@ body {
     max-width: 270px;
     max-height: 270px;
     border-radius: 50%;
+    box-shadow: 12px 12px 12px 1px rgba(131, 152, 196, .4);
 }
 
 .section__img:hover {
-    transform: scale(0.95);
-    transition: 0.5s;
+    transform: scale(0.99);
+    transition: 0.9s;
     cursor: pointer;
+    box-shadow: none;
 }
 
 /*Section contacts*/
@@ -177,12 +179,12 @@ svg {
 
 .link {
     text-decoration: none;
-    transition: 0.5s;
     color: #4d2323;
 }
 
 .link:hover {
     color: #c9ac8b;
+    transition: 0.5s;
 }
 
 .link:visited {
@@ -206,12 +208,28 @@ svg {
 }
 
 .footer__list {
+  color: cornsilk;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
   list-style: none;
   padding-top: 20px;
+}
+
+.footer__link {
+  color: cornsilk;
+  text-decoration: none;
+}
+
+.footer__link:hover {
+  color: rgb(250, 217, 175);
+  transition: 0.5s;
+}
+s
+.footer__link:visited {
+  text-decoration: none;
+  color: cornsilk;
 }
   
 .logo {
