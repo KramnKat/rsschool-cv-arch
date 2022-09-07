@@ -40,13 +40,14 @@ console.log("Hello, JS World!")
 
 ## Experience
 
-   * I have no experience in IT sphere, but whant to develop new skills and knowlages in it and in future get the position in Frontend Developing. 
+   * I have no experience in IT sphere, but want to develop new skills and knowlages in it and in future get the position in Frontend Developing. 
 
 ## Education
    * __University__: Saint Petersburg State University of Economics. *Speciality*: international relationships.
    * __Courses__: 
       * HTML and CSS Basic on Stepik.
       * [JavaScript/Front-end(Stage0)](https://rs.school/js-stage0/). [Certificate](https://app.rs.school/certificate/j2c51f8t).
+      * [Javascript: погружение](https://main.wayup.in/library/course18). [Certificate](https://drive.google.com/file/d/161_XbF2mZMDCH8Dizry1cSnkaC-vhxQp/view?usp=sharing).
 		* In process: [JavaScript/Front-end(Stage1)](https://rs.school/js/).
 
 ## Languages
