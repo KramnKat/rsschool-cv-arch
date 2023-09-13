@@ -1,1 +1,1 @@
-https://KramnKat.github.io/rsschool-cv/
+https://KramnKat.github.io/rsschool-cv-arch/
